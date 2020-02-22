@@ -49,18 +49,12 @@
 
 			<ul id="menubar" class="navbar-nav nav collapse navbar-collapse">
 
+				<button id="btnHabilidades" type="button" onclick="go('#sobremim')" class="btn btnMenu">Sobre</button>
 				<button id="btnHabilidades" type="button" onclick="go('#habilidades')" class="btn btnMenu">Habilidades</button>
-
-				<li class="nav-item dropdown">
-			    	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projetos</a>
-
-			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			        	<a class="dropdown-item" href="#">Home</a>
-						<a class="dropdown-item" href="#">Sobre</a>
-						<a class="dropdown-item" href="#">Trabalhos</a>
-						<a class="dropdown-item" href="#">Contato</a>
-			        </div>
-			    </li>
+				<button id="btnHabilidades" type="button" onclick="go('#trabalhos')" class="btn btnMenu">Trabalhos</button>
+				<button id="btnHabilidades" type="button" onclick="go('#footer')" class="btn btnMenu">Contato</button>
+				
+				
 			</ul>
 
 			<div class="p-2 ">
@@ -275,7 +269,7 @@
 	<!-- START FOOTER -->
 	<footer>
 		
-		<section class="row justify-content-center rodape">	
+		<section id="footer" class="row justify-content-center rodape">	
 			
 			<div class="col-sm-4 mt-4">
 
