@@ -98,13 +98,12 @@ h2{
 }
 
 .banner {
-	background-color: gray;
+	background-color: black;
 }
 
 .banner img {
 	background-position: center;
-	background-repeat: no-repeat;
-	width: 100%;
+	
 }
 
 .fa-code {
