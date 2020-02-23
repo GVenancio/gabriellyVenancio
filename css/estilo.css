@@ -8,6 +8,7 @@ body {
 h2{
 	font-size: 2rem;
 }
+
 nav {
 	position: fixed;
 	display: block;
@@ -29,7 +30,7 @@ color: #fff;
 }
 .navbar-brand img{
 
-	border-radius:circle;
+	/* border-radius:circle; */
 	width: 88px;
 	height:94px;
 	
@@ -111,12 +112,12 @@ margin-top:32px;
 }
 
 .top-navigation a:hover {
-	color: #fff;
+	color: #808080;
 }
 
 .navbar,
 .progress-bar {
-	background-color: #363636;
+	background-color: #808080;
 }
 
 .linha{
@@ -130,7 +131,7 @@ margin-top:32px;
 
 .btnMenu {
 	background-color: transparent;
-	color: white;
+	color: #808080;
 	font-size: 1.3rem;
 }
 
@@ -168,7 +169,7 @@ margin-top:32px;
 
 /*START SOBREMIM*/
 .profilePic {
-	border-radius: 20px;
+	/* border-radius: 50px; */
 	border: 1px solid white;
 }
 .sobremim{
@@ -195,17 +196,17 @@ margin-top:32px;
 
 .formulario {
 	border: 1px solid #000;
-	border-radius: 60px;
+	/* border-radius: 60px; */
 	height: 17rem;
 }
 
 .formu {
-	background-color: white;
+	background-color: #808080;
 	height: 1.875rem;
 	width: 1.875rem;
 	text-align: center;
 	line-height: 25px;
-	border-radius: 100px;
+	/* border-radius: 100px; */
 }
 
 .areaTexto {
@@ -233,8 +234,8 @@ margin-top:32px;
 	margin-left: 2rem;
 	border: none;
 	background-color: #696969;
-	color: white;
-	border-radius: 100px;
+	color: #808080;
+	/* border-radius: 100px; */
 }
 
 .converse div {
@@ -249,13 +250,13 @@ margin-top:32px;
 
 .bgCartao {
 	background-color: #eee;
-	border-radius: 30px;
+	/* border-radius: 30px; */
 	max-height: 13.55rem;
 }
 
 .cartaoVisita {
 	background-color: #363636;
-	border-radius: 30px;
+	/* border-radius: 30px; */
 }
 
 .faCartao {
@@ -284,12 +285,12 @@ margin-top:32px;
 }
 
 .rodape h3 {
-	color: white;
+	color: #808080;
 	font-size: 1.4rem;
 }
 
 .rodape hr {
-	border-color: white;
+	border-color: #808080;
 }
 
 .icone {
@@ -311,7 +312,7 @@ margin-top:32px;
 }
 
 .btnTop:hover {
-	color: white;
+	color: #808080;
 }
 
 .btnTop:focus,
@@ -320,7 +321,7 @@ margin-top:32px;
 }
 
 .linkSocial {
-	color: white;
+	color: #808080;
 	text-decoration: underline;
 	font-size: 0.9rem;
 }
@@ -344,7 +345,7 @@ margin-top:32px;
 }
 
 .card {
-	border-radius: 25px;
+	/* border-radius: 25px; */
 }
 /*END REDIRECT PAGE CSS*/
 /*START PROJETOS-WEB PAGE CSS*/
@@ -367,7 +368,7 @@ margin-top:32px;
 }
 
 .fotoSite {
-	border-radius: 20px;
+	/* border-radius: 20px; */
 	border: 1px solid black;
 }
 /*END TUDIMDIBAO*/
