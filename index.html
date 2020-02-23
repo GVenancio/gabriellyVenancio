@@ -46,24 +46,62 @@
 				</button>
 
 			</div>
+		
+				
 
+				
+				
 			<ul id="menubar" class="navbar-nav nav collapse navbar-collapse">
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="#SobreNos">Sobre</a>
+						</li>
+						<li class="nav-item pr-3">
+							<a class="nav-link" href="#modulos">Habilidades</a>
+						</li>
+						<li class="nav-item pr-3">
+							<a class="nav-link" href="contato.php">Trabalhos</a>
+						</li>
+						<li class="nav-item pr-3">
+							<a class="nav-link" href="#footer">Contato</a>
+						</li>
+						<!-- <li class="nav-item dropdown">
+							<a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Já é cliente?</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="contato.php">Torne-se um</a>
+								<a class="dropdown-item" href="http://cliente.agilium.com.br/ControleAcesso/Login?ReturnUrl=%2F">Portal do cliente</a>
+							</div>
+						</li> -->
+						
+					</ul>
+					<div class="p-2 ">
+						<button id="btnConverse" type="button" onclick="go('#converse')" class="btn btnMenu contato">Me mande uma mensagem</button>
+					</div>
 
-				<button id="btnHabilidades" type="button" onclick="go('#sobremim')" class="btn btnMenu">Sobre</button>
-				<button id="btnHabilidades" type="button" onclick="go('#habilidades')" class="btn btnMenu">Habilidades</button>
-				<button id="btnHabilidades" type="button" onclick="go('#trabalhos')" class="btn btnMenu">Trabalhos</button>
+					
+					</nav>
+			<script>//ao clicar em um link o menu recolhe
+			$(document).ready(function () {
+				$(".navbar-nav li a").click(function(event) {
+					$(".navbar-collapse").collapse('hide');
+				});
+			});
+		</script>				
+	</header>
+			<!-- <ul id="menubar" class="navbar-nav nav collapse navbar-collapse">
+
+				<button id="btnHabilidades" type="button" onclick="go('#sobremim')" class="btn btnMenu"></button>
+				<button id="btnHabilidades" type="button" onclick="go('#habilidades')" class="btn btnMenu"></button>
+				<button id="btnHabilidades" type="button" onclick="go('#trabalhos')" class="btn btnMenu"></button>
 				<button id="btnHabilidades" type="button" onclick="go('#footer')" class="btn btnMenu">Contato</button>
 				
 				
 			</ul>
 
-			<div class="p-2 ">
-				<button id="btnConverse" type="button" onclick="go('#converse')" class="btn btnMenu contato">Me mande uma mensagem</button>
-			</div>
+		
 
 		</nav>
 
-	</header>
+	</header> -->
 	<!-- END HEADER -->
 	<!-- START BANNER -->
 	<!-- <section class="banner no-margin">				
