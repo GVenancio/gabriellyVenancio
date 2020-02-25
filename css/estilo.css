@@ -319,6 +319,12 @@ margin-top:32px;
 .btnMenu:focus {
 	box-shadow: none;
 }
+.linha{
+	border-top: 2px solid #000;
+}
+.linha1{
+	border-top: 10px solid #000;
+}
 
 .linkSocial {
 	color: #808080;
