@@ -281,7 +281,7 @@ margin-top:32px;
 /*END CONVERSE*/
 /*START FOOTER*/
 .rodape {
-	background-color: #363636;
+	background-color: #000;
 }
 
 .rodape h3 {
@@ -360,24 +360,7 @@ margin-top:32px;
 	background-color: #25221A;
 }
 /*END APRESENTACAO*/
-/*START TUDIMDIBAO*/
-.tudimdibao {
-	background-color: #25221A;
-}
 
-.tudimdibao div p {
-	font-size: 1.1rem;
-}
-
-.tudimdibao div a:hover {
-	text-decoration: none;
-}
-
-.fotoSite {
-	/* border-radius: 20px; */
-	border: 1px solid black;
-}
-/*END TUDIMDIBAO*/
 /*START PORTFOLIO*/
 .portfolio {
 	background-color: #cecece;
