@@ -7,15 +7,15 @@
 <table>
 	<tbody>
 		<tr>
-			<td><a href="https://pedromartins.dev" target="_blank">Acesse meu portfólio</a></td>
-			<td><a href="https://pedromartins.dev/projetos-web.html" target="_blank">Sites desenvolvidos por mim</a></td>
+			<td><a href="" target="_blank">Acesse meu portfólio</a></td>
+			
 		</tr>
 	</tbody>
 </table>
 
 ## Outros projetos
 <table>
-	<tbody>
+	<!-- <tbody>
 		<tr><a href="https://tudimdibao.000webhostapp.com" target="_blank">TudimDibão - Restaurante Delivery</a></tr>
-	</tbody>
+	</tbody> -->
 </table>
